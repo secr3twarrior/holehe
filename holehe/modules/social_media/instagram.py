@@ -31,8 +31,8 @@ async def instagram(email, client, out):
 
     data = {
         'email': email,
-        'username': ''.join(random.choice(string.ascii_lowercase + string.digits) for i in range(random.randint(6, 30))),
-        'first_name': '',
+        'username': 'ms.karim_indianteacher_hater'.join(random.choice(string.ascii_lowercase + string.digits) for i in range(random.randint(6, 30))),
+        'first_name': 'Ms.Karim',
         'opt_into_one_tap': 'false'
     }
     headers["x-csrftoken"] = token
