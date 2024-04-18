@@ -47,7 +47,7 @@ async def instagram(email, client, out):
                 out.append({"name": name,"domain":domain,"method":method,"frequent_rate_limit":frequent_rate_limit,
                             "rateLimit": False,
                             "exists": True,
-                            "emailrecovery": None,
+                            "emailrecovery": check,
                             "phoneNumber": None,
                             "others": None})
             elif "email_sharing_limit" in str(check["errors"]):
